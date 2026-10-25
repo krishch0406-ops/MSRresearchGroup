@@ -41,9 +41,14 @@ When the tests passes on the `main`, it willl deploy the website to the GitHub P
 
 ## Future Work (Remaining Milestones)
 
-Milestone | Work(Remaining)
+### Milestone 3: Collection Methods Content
+Create a section on different methods of collecting data: REST APIs, GraphQL, Web Scraping (Selenium), Web Scraping (BeautifulSoup), Database Dumps, and Manual Download. Provide information about the purpose of each method and its pros and cons.
 
-3 | Create a section on different methods of collecting data. REST API, Graphql, Web Scraping (Selenium), Web Scraping (BeautifulSoup), Database Dumps, Manual Download. Provide information about the purpose of these methods and their pro's and cons.
-4 | Create a section on different types of analysis. Statistical Analysis, Regression Analysis, Thematic Analysis, Grounded Theory, Machine Learning, Time Series Analysis, Network Analysis, Visualization. Provide information on the type of analysis and when they can be applied.
-5 | Create a section on where to publish. Create subsections for conferences (ICSE, FSE, ASE, MSR, EASE, SANER) and journals (EMSE, TSE, TOSEM). Provide information on the type of conference/journal, area of focus, and how relevant they are (High/Medium).
-6 | Improve the styling using more CSS, make it responsive and make it look more professional.
+### Milestone 4: Analysis Methods Content
+Create a section on different types of analysis: Statistical Analysis, Regression Analysis, Thematic Analysis, Grounded Theory, Machine Learning, Time Series Analysis, Network Analysis, and Visualization. Provide information on the type of analysis and when it can be applied.
+
+### Milestone 5: Publication Venues Content
+Create a section on where to publish, with conferences (ICSE, FSE, ASE, MSR, EASE, SANER) and journals (EMSE, TSE, TOSEM) listed separately. Provide information on the type of venue, its area of focus, and how relevant it is to MSR (High/Medium).
+
+### Milestone 6: Designing Improvement
+Improve the styling with more CSS, make the page responsive, and make it look more professional.
