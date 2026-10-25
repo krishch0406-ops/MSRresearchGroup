@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSR Knowledge Base</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MSR Knowledge Base</h1>
+    <p>A reference guide for Mining Software Repositories research</p>
+  </header>
+
+  <!-- This is the navigation section where we can switch tabs-->
+  <nav>
+    <button class="tab-button active" data-tab="data-sources">Data Sources</button>
+    <button class="tab-button" data-tab="collection-methods">Collection Methods</button>
+    <button class="tab-button" data-tab="analysis-methods">Analysis Methods</button>
+    <button class="tab-button" data-tab="publication-venues">Publication Venues</button>
+  </nav>
+
+  <!-- This where all the content will get diaplayed in the website-->
+  <main>
+    <section id="data-sources" class="tab-content active">
+      <h2>Data Sources</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Data Provided</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GitHub</td>
+            <td>Repositories, commits, pull requests, issues, stars</td>
+            <td>Code hosting platform with version control and issue tracking.</td>
+          </tr>
+          <tr>
+            <td>Stack Overflow</td>
+            <td>Questions, answers, tags, user reputation</td>
+            <td>Question and answer site for developers.</td>
+          </tr>
+          <tr>
+            <td>JIRA</td>
+            <td>Issue tracking, sprint data, bug reports</td>
+            <td>Issue tracking tool.</td>
+          </tr>
+          <tr>
+            <td>App Stores</td>
+            <td>Google Play and Apple App Store reviews, ratings, downloads</td>
+            <td>Mobile app stores with user reviews and ratings.</td>
+          </tr>
+          <tr>
+            <td>Travis CI / Jenkins</td>
+            <td>Build logs, test results, deployment data</td>
+            <td>Continuous integration servers.</td>
+          </tr>
+          <tr>
+            <td>Mailing Lists</td>
+            <td>Developer discussions, archives</td>
+            <td>Archived developer communication.</td>
+          </tr>
+          <tr>
+            <td>npm Registry</td>
+            <td>Package dependencies, downloads, versions</td>
+            <td>Package registry for JavaScript.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="collection-methods" class="tab-content">
+      <h2>Collection Methods</h2>
+      <p>Coming soon (Milestone 3).</p>
+    </section>
+
+    <section id="analysis-methods" class="tab-content">
+      <h2>Analysis Methods</h2>
+      <p>Coming soon (Milestone 4).</p>
+    </section>
+
+    <section id="publication-venues" class="tab-content">
+      <h2>Publication Venues</h2>
+      <p>Coming soon (Milestone 5).</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

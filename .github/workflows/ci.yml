@@ -1,0 +1,33 @@
+name: CI
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run tests
+        run: |
+          test -f src/index.html
+          grep -q "Data Sources" src/index.html
+          grep -q "Collection Methods" src/index.html
+          grep -q "Analysis Methods" src/index.html
+          grep -q "Publication Venues" src/index.html
+
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: src
+      - uses: actions/deploy-pages@v4
